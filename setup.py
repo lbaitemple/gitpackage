@@ -8,5 +8,9 @@ setup(
     license='',
     author='Li Bai',
     author_email='',
-    description='package example'
+    description='package example',
+    install_requires=['pandas'],
+    package_data={
+        'biology': ['conf/*.csv']
+    }
 )
