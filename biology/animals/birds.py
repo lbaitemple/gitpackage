@@ -1,8 +1,8 @@
 class Birds:
     def __init__(self):
         ''' Constructor for this class. '''
-        # Create some member animals
-        self.members = ['Sparrow', 'Robin', 'Duck']
+        # Create some member animals, add peacock
+        self.members = ['Sparrow', 'Robin', 'Duck', 'Peacock']
 
     def printMembers(self):
         print('Printing members of the Birds class')
