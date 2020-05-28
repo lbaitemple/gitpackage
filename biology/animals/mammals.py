@@ -1,8 +1,8 @@
 class Mammals:
     def __init__(self):
         ''' Constructor for this class. '''
-        # Create some member animals
-        self.members = ['Tiger', 'Elephant', 'Wild Cat']
+        # Create some member animals, add monkey
+        self.members = ['Tiger', 'Elephant', 'Wild Cat', 'Monkey']
 
     def printMembers(self):
         print('Printing members of the Mammals class')
